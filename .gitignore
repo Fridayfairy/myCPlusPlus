@@ -5,3 +5,5 @@ bazel-out
 bazel-testlogs
 bazel-cplusplus_bazel
 .vscode
+main
+*.o

@@ -23,6 +23,6 @@ public:
 int main() {
   Derived d1;
   Base *bp = &d1;
-  bp->fun(); // 10
+  bp->fun(); // Derived::fun(), x = 10
   return 0;
 }
